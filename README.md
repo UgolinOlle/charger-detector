@@ -39,17 +39,7 @@ You can verify if the service is running correctly with:
 systemctl --user status charger-detector.service
 ```
 
-4. Configure the systemd Timer (Optional)
-
-To ensure that the program detects the charger connection even during sleep, you can configure a systemd timer:
-
-```bash
-cp assets/charger-wakeup.timer ~/.config/systemd/user/
-systemctl --user enable charger-wakeup.timer
-systemctl --user start charger-wakeup.timer
-```
-
-5. Test the Program
+4. Test the Program
 
 Plug in the charger to verify that the program plays a sound upon detection. If the sound is not played, ensure that your audio system is functional and that the service is active.
 Additional Resources
