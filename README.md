@@ -1,16 +1,16 @@
 # Charger Detector
 
-## Description
+## 📕・Description
 
 This project provides a solution to detect when a charger is connected to a computer, even when the computer is in sleep mode. Upon detection, a sound is played to notify the user. The service is configured to run in the background using systemd, with the capability to handle events even during sleep.
 
-## Prerequisites
+## 📦・Prerequisites
 
 - Linux with systemd configured.
 - Terminal access with administrator privileges.
 - A functional audio device.
 
-## Steps to Install and Configure the Service
+## ⌨️・・Steps to Install and Configure the Service
 
 1. Clone the Repository and Compile the Program
 
