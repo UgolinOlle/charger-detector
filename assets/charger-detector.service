@@ -1,0 +1,12 @@
+[Unit]
+Description=Charger Detector Service
+After=sound.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/charger_detector
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
+
